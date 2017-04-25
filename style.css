@@ -1,0 +1,89 @@
+body {
+    background: #b4c1b2;
+    margin: 0 auto;
+}
+
+.calculator {
+    margin: 40px auto 20px auto;
+    border-top: 1px solid #544f4f;
+    border-left: 1px solid #544f4f;
+    border-right: 2px solid #544f4f;
+    border-bottom: 3px solid #544f4f;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #7a7676;
+    height: 450px;
+    width: 330px;
+    background: #EEE;
+}
+
+.screen {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 40px auto 20px auto;
+    height: 80px;
+    max-width: 92%;
+    background: #f7f6e6;
+}
+
+.buttonrow {
+    margin: 10px auto;
+    text-align: center;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    margin: 2px 2px 7px 2px;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    vertical-align: middle;
+    background-color: #afbfce;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+#clear, #delete {
+    background-color: #ff9e9e;
+}
+
+#percent, #divide, #times, #minus, #plus, #equals {
+    background-color: #d7b5ff;
+}
+
+button:hover, #clear:hover, #delete:hover, #equals:hover, #percent:hover, #divide:hover, #times:hover, #minus:hover, #plus:hover, #equals:hover {
+    background-color: #A8D1FF;
+}
+
+button:focus {
+    border: 1px solid gray;
+    outline: 0;
+}
+
+.symbol {
+    font-size: 30px;
+}
+
+#equals {
+    width: 148px;
+    margin-right: 1px;
+}
+
+p {
+    text-align: right;
+    font-size: 36px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    overflow-y: hidden;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
